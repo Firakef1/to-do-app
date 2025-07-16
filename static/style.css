@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(207, 224, 246);
+}
+
+.title,h2{
+
+    font-family: sans-serif;
+    color: rgb(41, 146, 252);
+}
+
+.add-form, .update-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5%;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: rgb(1, 200, 249);
+    color: white;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background: radial-gradient(rgb(103, 196, 250) 50%, rgb(64, 249, 64) 50%);
+    background-size: 800% 800%;
+    transition: background-position 0.25s ease-in-out;
+    background-position: center;
+}
+
+button:hover{
+    background-position: top;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.5;
+    background-position: top;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-family: sans-serif;
+}
+
+#delete-btn{
+    color: rgba(255, 0, 0, 0.788);
+    text-decoration: none;
+    font-family: sans-serif;
+    border:solid 1px transparent;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    background-color: rgb(186, 213, 249);
+    transition: background-color 0.2s ease-in-out;
+}
+
+#delete-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.none{
+    display: none;
+}
